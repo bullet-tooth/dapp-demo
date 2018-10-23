@@ -7,6 +7,15 @@ cd dapp-demo
 truffle unbox wespr/truffle-vue
 ```  
 
+
+## Deployment to ropsten 
+Register at Infura
+``` bash
+npm install truffle-hdwallet-provider
+npm install dotenv
+
+```
+
 ## Commands
 ```bash
 Commands:
