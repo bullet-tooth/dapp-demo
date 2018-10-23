@@ -5,7 +5,7 @@
       <h1 >No phones in the stock</h1>
     </div>
 
-    <b-card-group deck
+    <b-card-group columns
                   class="mb-3">
       <b-card
         v-for="lot in data" :key="lot.id"
