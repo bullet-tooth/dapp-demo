@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
+    "dotenv": "^6.1.0",
     "openzeppelin-solidity": "^1.12.0",
     "truffle-contract": "^3.0.0",
     "truffle-hdwallet-provider": "0.0.6",
