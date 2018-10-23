@@ -5,8 +5,8 @@ import App from './App'
 import Web3 from 'web3'
 import router from './router'
 import BootstrapVue from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import 'bootstrap/docs/css/bootstrap.css'
+import 'bootstrap-vue/docs/bootstrap-vue.css'
 import store from './store'
 
 Vue.use(BootstrapVue)
