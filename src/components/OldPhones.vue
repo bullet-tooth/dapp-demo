@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 v-if="data.length > 0">New phones stock:</h1>
+    <h1 v-if="data.length > 0">Old phones stock:</h1>
     <div v-else>
       <h1 >No phones in the stock</h1>
     </div>
@@ -49,7 +49,7 @@
       PhonesMarket.instance.balanceOf(PhonesMarket.instance.address)
         .then(bb => console.log('contract %s balance %s', PhonesMarket.instance.address, Number(bb)))
 
-      PhonesMarket.instance.getphoneStock(PhonesMarket.instance.address)
+      PhonesMarket.instance.getPhoneMarket(PhonesMarket.instance.address)
         .then(data => {
           let owners = data[0]
           let ids = data[1]

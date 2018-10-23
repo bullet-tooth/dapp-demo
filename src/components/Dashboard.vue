@@ -5,7 +5,7 @@
     <div v-else>
       <h1 >You have no phones</h1>
     </div>
-    <b-card-group deck
+    <b-card-group columns
                   class="mb-3">
       <b-card
         v-for="phone in userPhones" :key="phone.id"
